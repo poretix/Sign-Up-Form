@@ -203,3 +203,23 @@ body {
         padding-bottom: 16px;
     }
 }
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('../fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
