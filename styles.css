@@ -131,6 +131,12 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     body {
         flex-direction: column;
     }
@@ -141,30 +147,34 @@ body {
     }
 
     .logo {
-        top: 40px;
+        top: 3vh;
         height: 100px;
         width: 100vw;
     }
 
     .right-side {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
     }
 
     .paragraph {
-        padding-left: 0;
-        padding-top: 0;
+        padding-left: 16px;;
+        padding-top: 16px;
         padding-right: 30px;
-        padding-bottom: 0;
+        padding-bottom: 16px;;
         text-align: center;
     }
 
     .form-area {
-        padding-top: 10px;
-        padding-left: 0;
+        padding-top: 16px;
+        padding-left: 16px;
         padding-right: 30px;
         text-align: center;
         box-shadow: none;
+    }
+    
+    .form-area p{
+        padding-bottom: 16px;
     }
 
     .form-top, .form-middle, .form-bottom {
@@ -184,11 +194,12 @@ body {
 
     .signup-area {
         text-align: center;
-        padding-right: 60px;
+        padding-left: 16px;
     }
 
     .account-info {
         display: flex;
         justify-content: center;
+        padding-bottom: 16px;
     }
 }
